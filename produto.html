@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastramentos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <ul>
+        <li>
+            <a class="menu" href="./index.html">Página Inicial</a>
+        </li>
+    </ul>
+
+    <div>
+        <h3>Cadastro de Produtos</h3>
+
+        <form id="formProduct">
+            <div class="inputs">
+               <label for="product">Produto</label>
+               <input type="text" id="product" name="produto">
+               <br>
+
+               <label for="code">Código</label>
+               <input type="text" id="code" name="codigo">
+               <br>
+
+               <label for="amount">Quantidade</label>
+               <input type="number" id="amount" name="quantidade">
+               <br>
+
+               <label for="price">Preço de Venda</label>
+               <input type="number" id="price" name="preco">
+            </div>
+
+            <div class="button">
+                <button type="submit" id="clicar">Salvar</button>
+            </div>
+
+
+        </form>
+
+    </div>
+    
+
+    <script src="./produto.js"></script>
+</body>
+</html>

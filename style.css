@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Encode Sans SC', sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(231, 226, 218);
+    color: rgb(63, 35, 16);
+    
+}
+
+/** principal -----------------  **/
+
+h2 {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    font-size: 2.2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.client {
+    color: rgb(63, 35, 16);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border:  solid 5px;
+    padding: 10px 35px;
+}
+
+.client:hover {
+    background-color: white;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+}
+
+.product {
+    color: rgb(63, 35, 16);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border:  solid 5px;
+    padding: 10px 35px;
+}
+
+.product:hover {
+    background-color: white;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+}
+
+/** cliente e produto -----------------  **/
+ul {
+    color: rgb(63, 35, 16);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 80%;
+    border:  solid 3px;
+    padding: 5px ;
+    list-style: none;
+    text-align: center;
+}
+
+ul:hover {
+    background-color: white;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+}
+
+li a {
+    color: rgb(63, 35, 16);
+    font-size: 12px;
+}
+
+
+h3 {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    font-size: 1.8rem;
+}
+
+form {
+    width: 56%;
+    padding: 1em;
+    text-align: right;
+}
+
+label {   
+    display: inline-block;
+    width: 90px; 
+}
+
+input {
+    width: 300px; 
+    height: 25px; 
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: white;
+    color: rgb(63, 35, 16);
+    border: none;
+    padding: 10px 35px;
+    margin-right: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+    margin-top: 10px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+button:hover {
+    background-color: white;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+}
